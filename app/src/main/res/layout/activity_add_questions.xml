@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/add_question_word"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="64dp"
+            android:hint="WORD"/>
+
+        <EditText
+            android:id="@+id/option_1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Option 1"/>
+
+        <EditText
+            android:id="@+id/option_2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:text="Option 2"/>
+
+        <EditText
+            android:id="@+id/translation_word"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#F5F5F5"
+            android:text="Answer Word"
+            android:paddingLeft="2dp" />
+
+        <EditText
+            android:id="@+id/language_id"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#F5F5F5"
+            android:inputType="number"
+            android:text="Language ID"
+            android:paddingLeft="2dp" />
+
+        <TextView
+            android:id="@+id/all_languages"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:textColor="#000000"
+            android:background="#F5F5F5" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter"/>
+</LinearLayout>
